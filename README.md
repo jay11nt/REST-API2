@@ -54,8 +54,8 @@
     
      Endpoint: GET /api/pets/cats
     
-     Response:
-    
+     **Response:**
+      ```
        [
         {
           "id": 1,
@@ -65,13 +65,13 @@
           "breed": "Persian"
          }
        ]
-
+     ```
    - Create a Dog **(POST Request):**
      
      Endpoint: POST /api/pets/dogs
 
-     Request Body:
-     
+     **Request Body:**
+     ```
       {
       "id": 1,
      
@@ -79,5 +79,11 @@
      
       "breed": "Golden Retriever"
      }
+    ```
+    
+   - Get All Dogs **(GET Request):**
+    
+     Endpoint: GET /api/pets/dogs
 
+     **Response:**
     
