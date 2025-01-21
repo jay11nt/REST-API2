@@ -80,10 +80,4 @@
       "breed": "Golden Retriever"
      }
     ```
-    
-   - Get All Dogs **(GET Request):**
-    
-     Endpoint: GET /api/pets/dogs
-
-     **Response:**
-    
+    - 
