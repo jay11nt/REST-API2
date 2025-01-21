@@ -43,7 +43,6 @@
         ```
         {
         "id": 1,
-     
         "name": "Whiskers",
      
         "breed": "Persian"
