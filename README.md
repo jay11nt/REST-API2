@@ -1,4 +1,4 @@
-# REST-API2
+# REST-API 2
 ![crudoperation](https://img.shields.io/badge/crud_operation-2F3134?style=for-the-badge&logo=crud_operation&logoColor=white)
 
  🔸 Spring Boot project performing crud operation, building RESTful services.
