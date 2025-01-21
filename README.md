@@ -71,7 +71,7 @@
      Endpoint: POST /api/pets/dogs
 
      **Request Body:**
-     ```
+      ```
       {
       "id": 1,
      
@@ -79,9 +79,26 @@
      
       "breed": "Golden Retriever"
      }
-    ```
+      ```
 
     
    - Get All Dogs **(GET Request):**
     
     Endpoint: GET /api/pets/dogs
+      **Response:**
+         ```
+            [
+            {
+              "id": 1,
+              "name": "Buddy",
+              "breed": "Golden Retriever"
+            }
+          ]
+          ```
+- ### Step 9: Test the H2 Database Console (Optional)
+  
+   If you want to view and interact with the **H2 database**:
+
+   Open a browser and navigate to **http://localhost:8080/h2-console.**
+
+   Use the same JDBC URL and credentials from **application.properties**
