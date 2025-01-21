@@ -83,9 +83,9 @@
     
    - Get All Dogs **(GET Request):**
     
-    Endpoint: GET /api/pets/dogs
+      Endpoint: GET /api/pets/dogs
   
-     **Response:**
+      **Response:**
   
        ```
             [
