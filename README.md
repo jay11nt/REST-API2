@@ -34,3 +34,18 @@
 - ### Step 8: Example HTTP Requests-
   
   You can now send HTTP requests to interact with your API.
+  
+   - Create a Cat **(POST Request):**
+  
+   Endpoint: POST /api/pets/cats
+
+  Request Body:
+
+        {
+        "id": 1,
+        "name": "Whiskers",
+        "breed": "Persian"
+      }
+  
+  -Get All Cats **(GET Request):**
+  Endpoint: GET /api/pets/cats
