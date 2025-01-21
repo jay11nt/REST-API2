@@ -39,32 +39,44 @@
   
      Endpoint: POST /api/pets/cats
 
-     Request Body:
-
+     **Request Body:**
+        ```
         {
         "id": 1,
+     
         "name": "Whiskers",
+     
         "breed": "Persian"
         }
+        ```
   
   - Get All Cats **(GET Request):**
+    
      Endpoint: GET /api/pets/cats
+    
      Response:
+    
        [
         {
           "id": 1,
+    
           "name": "Whiskers",
+    
           "breed": "Persian"
-        }
+         }
        ]
 
    - Create a Dog **(POST Request):**
+     
      Endpoint: POST /api/pets/dogs
 
      Request Body:
+     
       {
       "id": 1,
+     
       "name": "Buddy",
+     
       "breed": "Golden Retriever"
      }
 
