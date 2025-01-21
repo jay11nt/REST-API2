@@ -35,7 +35,7 @@
   
   You can now send HTTP requests to interact with your API.
   
-   - **Create a Cat (POST Request):**
+   - **(POST Request): Create a Cat**
   
      Endpoint: POST /api/pets/cats
 
@@ -50,7 +50,7 @@
         }
         ```
   
-  - **Get All Cats (GET Request):**
+  - **(GET Request): Get All Cats**
     
      Endpoint: GET /api/pets/cats
     
@@ -66,7 +66,7 @@
          }
        ]
      ```
-   - **Create a Dog (POST Request):**
+   - **(POST Request): Create a Dog**
      
      Endpoint: POST /api/pets/dogs
 
@@ -81,7 +81,7 @@
      }
       ```
     
-   - **Get All Dogs (GET Request):**
+   - **(GET Request): Get All Dogs**
     
       Endpoint: GET /api/pets/dogs
   
