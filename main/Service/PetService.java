@@ -11,14 +11,15 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class PetService {
-
+public class PetService 
+{
     @Autowired
     private CatRepository catRepository;
 
     @Autowired
     private DogRepository dogRepository;
 
+    
     //--- Cat CRUD Operations---
     public List<Cat> getAllCats() {
         return catRepository.findAll();
