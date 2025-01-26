@@ -56,10 +56,11 @@ public class PetService
     public Dog saveDog(Dog dog) 
         {
         return dogRepository.save(dog);
-    }
+        }
 
-    public void deleteDog(Long id) {
+    public void deleteDog(Long id) 
+        {
         dogRepository.deleteById(id);
-    }
+        }
 }
 
