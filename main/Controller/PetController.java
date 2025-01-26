@@ -20,20 +20,21 @@ public class PetController
     //---- Cat Endpoints----
     @GetMapping("/cats")
     public List<Cat> getAllCats() 
-    {
-        return petService.getAllCats();
-    }
+        {
+            return petService.getAllCats();
+        }
 
     @GetMapping("/cats/{id}")
     public Optional<Cat> getCatById(@PathVariable Long id) 
-    {
+        {
         return petService.getCatById(id);
-    }
+        }
 
     @PostMapping("/cats")
-    public Cat createCat(@RequestBody Cat cat) {
+    public Cat createCat(@RequestBody Cat cat) 
+        {
         return petService.saveCat(cat);
-    }
+        }
 
     @DeleteMapping("/cats/{id}")
     public void deleteCat(@PathVariable Long id) {
