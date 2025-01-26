@@ -31,9 +31,10 @@ public class PetService
         return catRepository.findById(id);
     }
 
-    public Cat saveCat(Cat cat) {
+    public Cat saveCat(Cat cat) 
+        {
         return catRepository.save(cat);
-    }
+        }
 
     public void deleteCat(Long id) {
         catRepository.deleteById(id);
