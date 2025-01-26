@@ -26,7 +26,8 @@ public class PetService
         return catRepository.findAll();
     }
 
-    public Optional<Cat> getCatById(Long id) {
+    public Optional<Cat> getCatById(Long id) 
+    {
         return catRepository.findById(id);
     }
 
