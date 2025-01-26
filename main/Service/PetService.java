@@ -22,14 +22,14 @@ public class PetService
     
     //--- Cat CRUD Operations---
     public List<Cat> getAllCats() 
-    {
+        {
         return catRepository.findAll();
-    }
+        }
 
     public Optional<Cat> getCatById(Long id) 
-    {
+        {
         return catRepository.findById(id);
-    }
+        }
 
     public Cat saveCat(Cat cat) 
         {
