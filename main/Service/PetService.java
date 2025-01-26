@@ -43,13 +43,15 @@ public class PetService
 
   
     //--- Dog CRUD Operations---
-    public List<Dog> getAllDogs() {
+    public List<Dog> getAllDogs() 
+        {
         return dogRepository.findAll();
-    }
+        }
 
-    public Optional<Dog> getDogById(Long id) {
+    public Optional<Dog> getDogById(Long id) 
+        {
         return dogRepository.findById(id);
-    }
+        }
 
     public Dog saveDog(Dog dog) {
         return dogRepository.save(dog);
