@@ -37,20 +37,23 @@ public class PetController
         }
 
     @DeleteMapping("/cats/{id}")
-    public void deleteCat(@PathVariable Long id) {
+    public void deleteCat(@PathVariable Long id) 
+        {
         petService.deleteCat(id);
-    }
+        }
 
     //---- Dog Endpoints----
     @GetMapping("/dogs")
-    public List<Dog> getAllDogs() {
+    public List<Dog> getAllDogs() 
+        {
         return petService.getAllDogs();
-    }
+        }
 
     @GetMapping("/dogs/{id}")
-    public Optional<Dog> getDogById(@PathVariable Long id) {
+    public Optional<Dog> getDogById(@PathVariable Long id) 
+        {
         return petService.getDogById(id);
-    }
+        }
 
     @PostMapping("/dogs")
     public Dog createDog(@RequestBody Dog dog) {
