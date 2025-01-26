@@ -36,9 +36,10 @@ public class PetService
         return catRepository.save(cat);
         }
 
-    public void deleteCat(Long id) {
+    public void deleteCat(Long id) 
+        {
         catRepository.deleteById(id);
-    }
+        }
 
   
     //--- Dog CRUD Operations---
