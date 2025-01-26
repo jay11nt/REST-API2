@@ -56,13 +56,15 @@ public class PetController
         }
 
     @PostMapping("/dogs")
-    public Dog createDog(@RequestBody Dog dog) {
+    public Dog createDog(@RequestBody Dog dog) 
+        {
         return petService.saveDog(dog);
-    }
+        }
 
     @DeleteMapping("/dogs/{id}")
-    public void deleteDog(@PathVariable Long id) {
+    public void deleteDog(@PathVariable Long id) 
+        {
         petService.deleteDog(id);
-    }
+        }
 }
 
