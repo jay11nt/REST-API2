@@ -21,7 +21,8 @@ public class PetService
 
     
     //--- Cat CRUD Operations---
-    public List<Cat> getAllCats() {
+    public List<Cat> getAllCats() 
+    {
         return catRepository.findAll();
     }
 
