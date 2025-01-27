@@ -5,7 +5,8 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
-public class Cat {
+public class Cat 
+{
 
     @Id
     private Long id;
