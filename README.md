@@ -105,7 +105,7 @@
    Use the same JDBC URL and credentials from **application.properties**
   
   
-- **application.properties**  **file-**
+- **application.properties**  file-
 
 ```
 # Database Configuration (For H2 in-memory database)
