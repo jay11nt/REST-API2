@@ -34,7 +34,8 @@ public class Dog
         this.name = name;
     }
 
-    public String getBreed() {
+    public String getBreed() 
+    {
         return breed;
     }
 
