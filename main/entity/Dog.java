@@ -4,7 +4,8 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
-public class Dog {
+public class Dog 
+{
 
     @Id
     private Long id;
@@ -13,7 +14,8 @@ public class Dog {
 
     // Getters and Setters
 
-    public Long getId() {
+    public Long getId() 
+    {
         return id;
     }
 
