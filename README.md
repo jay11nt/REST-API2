@@ -105,10 +105,10 @@
    Use the same JDBC URL and credentials from **application.properties**
   
   
-- **application.properties**   file-
+- **application.properties**  **file-**
 
 ```
-  # Database Configuration (For H2 in-memory database)
+# Database Configuration (For H2 in-memory database)
 spring.datasource.url=jdbc:h2:mem:testdb
 spring.datasource.driverClassName=org.h2.Driver
 spring.datasource.username=sa
