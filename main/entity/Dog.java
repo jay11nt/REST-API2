@@ -40,7 +40,7 @@ public class Dog
         }
 
     public void setBreed(String breed) 
-    {
+        {
         this.breed = breed;
-    }
+        }
 }
