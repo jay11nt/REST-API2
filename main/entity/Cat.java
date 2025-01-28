@@ -15,7 +15,8 @@ public class Cat
 
     // Getters and Setters
 
-    public Long getId() {
+    public Long getId() 
+{
         return id;
     }
 
