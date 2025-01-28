@@ -21,9 +21,9 @@ public class Cat
       }
 
     public void setId(Long id) 
-{
+      {
         this.id = id;
-    }
+      }
 
     public String getName() 
 {
