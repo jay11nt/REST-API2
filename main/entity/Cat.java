@@ -31,14 +31,14 @@ public class Cat
       }
 
     public void setName(String name) 
-{
+      {
         this.name = name;
-    }
+      }
 
     public String getBreed() 
-{
+      {
         return breed;
-    }
+      }
 
     public void setBreed(String breed) 
 {
