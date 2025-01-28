@@ -20,7 +20,8 @@ public class Cat
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Long id) 
+{
         this.id = id;
     }
 
