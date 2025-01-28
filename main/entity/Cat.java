@@ -41,7 +41,7 @@ public class Cat
       }
 
     public void setBreed(String breed) 
-{
+      {
         this.breed = breed;
-    }
+      }
 }
